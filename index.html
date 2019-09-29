@@ -28,32 +28,56 @@
     <main>
         <div id="aboutme">
             <h2>About Me</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis, asperiores recusandae. Quas, eligendi accusantium dolorem debitis fuga sapiente cupiditate mollitia? Tempora fugit obcaecati corrupti explicabo dicta adipisci tempore, dolor eveniet ab aut ex quasi natus sed. Expedita eius iusto quas, exercitationem deleniti dolorum? Iusto pariatur harum molestiae neque error temporibus earum saepe numquam qui sapiente, dolor sed voluptatibus asperiores optio dolorum architecto, labore necessitatibus! Ullam culpa veritatis quisquam optio laborum alias porro delectus beatae debitis cupiditate impedit pariatur quas accusantium repellendus non dolore ab fugit voluptatem id, officiis corporis veniam eveniet recusandae. Quisquam soluta fugit quis illo iste rem tenetur odio porro distinctio itaque, in a consequuntur ab vitae maxime officia molestias! Corporis eius hic expedita, itaque rem deserunt modi, ex quibusdam beatae magnam cumque natus et similique molestias nostrum provident sed perferendis nobis animi. Ullam blanditiis accusamus, suscipit rem velit, incidunt repudiandae veniam quo iusto, voluptate voluptatibus quas praesentium!</p>
+            <p>Hi there, I'm Cj, currently taking BSIT at Adventist University of the Philippines. I'm from Santa Rosa, Laguna.</p>
         </div>
         <div id="skills">
             <h2>SKILLS</h2>
             <div class="skill-main-grid">
             <div class="skill-grid1">
-                <h2>Lorep Ipsum</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque doloremque modi laboriosam enim fugiat quae repellat magnam ad quasi praesentium assumenda corporis vel totam hic odit molestiae, veniam, dolore molestias tenetur? Incidunt eum laboriosam non tempora natus nemo suscipit veritatis, itaque libero accusantium, omnis quibusdam molestiae vitae eos nam, ducimus porro culpa explicabo voluptas fugit saepe iusto. Aliquam laboriosam eveniet, dolorum ipsam libero assumenda quisquam odit minus quam officia repudiandae qui exercitationem sint nisi itaque.</p>
+                <label class="skilllabel">Java</label>
+                <p>I am able to program software applications using Java programming language.</p>
+                <img src="./img/javalogo.png" class="skillsimg">
             </div>
             <div class="skill-grid2">
-                <h2>Lorep Ipsum</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque doloremque modi laboriosam enim fugiat quae repellat magnam ad quasi praesentium assumenda corporis vel totam hic odit molestiae, veniam, dolore molestias tenetur? Incidunt eum laboriosam non tempora natus nemo suscipit veritatis, itaque libero accusantium, omnis quibusdam molestiae vitae eos nam, ducimus porro culpa explicabo voluptas fugit saepe iusto. Aliquam laboriosam eveniet, dolorum ipsam libero assumenda quisquam odit minus quam officia repudiandae qui exercitationem sint nisi itaque.</p>
+                    <label class="skilllabel">Website</label>
+                <p>I am able to design websites along with it's functions.</p>
+                <img src="./img/vscodelogo.png" class="skillsimg">
             </div>
             <div class="skill-grid3">
-                <h2>Lorep Ipsum</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque doloremque modi laboriosam enim fugiat quae repellat magnam ad quasi praesentium assumenda corporis vel totam hic odit molestiae, veniam, dolore molestias tenetur? Incidunt eum laboriosam non tempora natus nemo suscipit veritatis, itaque libero accusantium, omnis quibusdam molestiae vitae eos nam, ducimus porro culpa explicabo voluptas fugit saepe iusto. Aliquam laboriosam eveniet, dolorum ipsam libero assumenda quisquam odit minus quam officia repudiandae qui exercitationem sint nisi itaque.</p>
+                    <label class="skilllabel">Database</label>
+                <p>I am able to program database.</p>
+                <img src="./img/database.png" class="skillsimg">
             </div>
             <div class="skill-grid4">
-                <h2>Lorep Ipsum</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque doloremque modi laboriosam enim fugiat quae repellat magnam ad quasi praesentium assumenda corporis vel totam hic odit molestiae, veniam, dolore molestias tenetur? Incidunt eum laboriosam non tempora natus nemo suscipit veritatis, itaque libero accusantium, omnis quibusdam molestiae vitae eos nam, ducimus porro culpa explicabo voluptas fugit saepe iusto. Aliquam laboriosam eveniet, dolorum ipsam libero assumenda quisquam odit minus quam officia repudiandae qui exercitationem sint nisi itaque.</p>
+                    <label class="skilllabel">Android</label>
+                <p>I am able to program Android applications.</p>
+                <img src="./img/androidlogo.png" class="skillsimg">
             </div>
         </div>
     </div>
-        <div id="contact">
-
+        <div id="contact"><center>
+            <label><b>Contacts:</b></label><br>
+            <table>
+                <tr>
+                    <td><img src="./img/fbicon.png"><a href="http://www.facebook.com/Espinoza.Cj27">Cj Espinoza</a></td>
+                    <td><img src="./img/phonepng.png">09265535301</td>
+                </tr>
+        </center>
+    </table>
         </div>
     </main>
 </body>
+<footer><center><label>Send me a message.</label>
+    <form class="portfolio-form">
+    <div class="form-row">
+        <label class="form-label">Subject:</label>
+            <input type="text" id="mailSubject" class="form-input-text">
+        <label class="form-label">Message:</label>
+            <textarea id="mailMessage" class="form-input-textarea" cols="50" rows="1"></textarea>
+            <a onmouseover="appendMailTo()" id="sendMail" href="mailto:espinoza.cj3@gmail.com">Submit</a>
+    </div>
+</form><hr>
+        <i>Copyright &copy;<span id="getYear"></span></i></center>
+</footer>
+<script src="js/main.js"></script>
 </html>
