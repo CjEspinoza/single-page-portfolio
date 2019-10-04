@@ -27,8 +27,9 @@ body{
 }
 .portfolio-hero ul li{
     list-style: none;
-    margin-left: 60px;
-    margin-right: 10px;
+    margin-left: 110px;
+    margin-right: 110px;
+    color: white;
 }
 .portfolio-hero .menu-item a{
     color: white;
@@ -48,6 +49,7 @@ body{
     width: 250px;
     border-radius: 50%;
     border-style: solid;
+    margin-top: -100px;
 }
 .porfolio-profile h1{
     font-weight: 300;
@@ -59,6 +61,12 @@ body{
     font-family: 'Courier New', Courier, monospace;
     color:white;
     font-size: 30px;
+    margin-top: -10px;
+}
+.portfolio-hero ul li:hover{
+    background-color: black;
+    font-size: 30px;
+    padding: 20px;
 }
 
 /*MAIN*/
@@ -160,18 +168,38 @@ footer{
     background-color: darkslategray;
     color: white;
 }
+.form-row{
+    height: 100px;
+}
 form{
     padding:10px;
 }
-.form-input-textarea:hover{
-    height: 100px;
+.form-input-textarea{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: -232px;
+    width: 500px;
+    height: 50px;
+}
+.form-label-message{
+    position: absolute;
+    margin-left: -322px;
+    margin-top: 40px;
+}
+.form-label-subject{
+    position: absolute;
+    margin-left: -312px;
+    margin-top: 0px;
 }
 .form-input-text{
-    width:300px;
+    width:500px;
+    position: absolute;
+    margin-left: -232px;
 }
 .skill-grid1:hover{
     font-size: 18px;
     width: 380px;
+    height: 380px;
 }
 .skill-grid2:hover{
     font-size: 18px;
@@ -193,4 +221,154 @@ form{
     padding: 5px;
     text-decoration: none;
     color: black;
+    position: absolute;
+    margin-top: 57px;
+    margin-left: 290px;
+}
+
+/*CSS for mobile*/
+@media screen and (max-width: 407px){
+    .skill-grid1{
+        background-color: darkslateblue;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        padding:20px;
+    }
+    .skill-grid2{
+        background-color: darkcyan;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        padding:20px;
+    }
+    .skill-grid3{
+        background-color: maroon;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        padding:20px;
+    }
+    .skill-grid4{
+        background-color: midnightblue;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        padding:20px;
+    }
+    .skill-main-grid{
+        color: white;
+        display: grid;
+        grid-template-columns: repeat(2, 4fr);
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    img.skillsimg{
+        height: 80px;
+        width: 80px;
+    }
+    .portfolio-hero{
+        background: url(../img/bg.jpg) center center;
+        height: 100vh;
+        text-align: center;
+        color:white;
+        background-size: cover;
+        width: 529px;
+        
+    }
+    #aboutme{
+        width: 469px;
+        margin-top: 0px;
+    }
+    body{
+        margin:0px;
+    }
+    #skills{
+        width: 529px;
+    }
+    #contact{
+        width: 509px;
+    }
+    footer{
+        width: 509px;
+    }
+    .porfolio-profile h1{
+        font-weight: 300;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 18px;
+        margin-top: 150px;
+        margin-left: 140px;
+    }
+    .porfolio-profile img{
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        border-style: solid;
+        margin-top: -80px;
+        margin-left: -40px;
+        position: absolute;
+    }
+    .porfolio-profile h3{
+        font-weight: 300;
+        font-family: 'Courier New', Courier, monospace;
+        color:white;
+        font-size: 18px;
+        margin-left: 150px;
+    }
+    .portfolio-hero ul{
+        margin: 0;
+        display: flex;
+        text-align: center;
+        padding-top: 15px;
+        font-size: 15px;
+}   
+    .porfolio-hero ul li{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .form-row{
+        height: 150px;
+    }
+    #sendMail{
+        position: absolute;
+        margin-top: 105px;
+        margin-left: -30px;
+    }
+    td img{
+        margin-left: 30px;
+    }
+    .portfolio-hero ul li{
+        list-style: none;
+        margin-left: 30px;
+        margin-right: 30px;
+        color: white;
+    }
+    .portfolio-hero .menu-item a{
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    .con{
+        padding-left: 0px;
+        padding-right: 0px;
+        margin: 0px;
+    }
+    .form-input-text{
+        width: 302px;
+        position: absolute;
+        margin-left: -120px;
+    }
+    .form-input-textarea{
+        position: absolute;
+        width: 300px;
+        margin-left: -120px;
+    }
+    .form-label-message{
+        margin-left: -200px;
+        position: absolute;
+    }
+    .form-label-subject{
+        margin-left: -200px;
+
+    }
 }
