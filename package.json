@@ -1,0 +1,22 @@
+{
+  "name": "single-page-portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CjEspinoza/single-page-portfolio.git"
+  },
+  "author": "Cj Espinoza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CjEspinoza/single-page-portfolio/issues"
+  },
+  "homepage": "https://github.com/CjEspinoza/single-page-portfolio#readme",
+  "description": "",
+  "dependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}
